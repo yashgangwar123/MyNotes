@@ -53,6 +53,7 @@ body {
 
 button {
     position: relative;
+    z-index: 1;
     display: inline-block;
     cursor: pointer;
     outline: none;
@@ -142,7 +143,6 @@ button:hover .button-text {
 /* button styling ends  */
 
 .note {
-    z-index: -1;
     background-color: #fff;
     margin: 30px 20px;
     height: 180px;
