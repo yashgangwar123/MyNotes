@@ -15,7 +15,7 @@ body {
 
 .heading {
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     width: 100vw;
     height: 4rem;
     background-color: #f1c40f;
@@ -142,6 +142,7 @@ button:hover .button-text {
 /* button styling ends  */
 
 .note {
+    z-index: -1;
     background-color: #fff;
     margin: 30px 20px;
     height: 180px;
